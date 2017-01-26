@@ -1,0 +1,123 @@
+h2 {
+	margin-bottom: 0px;
+}
+
+div.piechart canvas {
+	height: 280px;
+	width: 55%;
+}
+
+div.piebox {
+	width: 32%;
+	float: right;
+	margin-right: 10%;
+}
+
+div.piebox ul {
+	box-shadow: 1px 1px 4px 1px #ccc;
+	margin: 5px;
+	padding: 8px;
+}
+
+div.piebox ul li:before {
+	content: "";
+	display: inline-block;
+	height: 13px;
+	width: 13px;
+	margin-right: 5px;
+	border-radius: 3px;
+	vertical-align: middle;
+}
+
+div.piebox ul li:nth-child(1):before {
+	background: #E73C86;
+}
+
+div.piebox ul li:nth-child(2):before {
+	background: #ED81A9;
+}
+
+div.piebox ul li:nth-child(3):before {
+	background: #F099B8;
+}
+
+div.piebox ul li:nth-child(4):before {
+	background: #F4B4C9;
+}
+
+div.piebox ul li:nth-child(5):before {
+	background: #F7C9D8;
+}
+
+div.piebox ul li:nth-child(6):before {
+	background: #FADCE7;
+}
+
+div.piebox ul li:nth-child(7):before {
+	background: #F8E7EE;
+}
+
+div.piebox ul li:nth-child(8):before {
+	background: #FBF2F6;
+}
+
+div.barchart canvas, div.linechart canvas {
+	height: 300px;
+	width: 95%;
+}
+
+table.bartable, table.linetable {
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 15px;
+}
+
+div.scrolltable {
+	height: 150px;
+	overflow-y: scroll;
+}
+
+div.detailbox {
+	width: 85%;
+	height: 94%;
+	margin-top: 5%;
+	padding: 10px;
+	border: double;
+	overflow-y: scroll;
+	word-wrap: break-word;
+}
+
+div.detailbox table {
+	width: 100%;
+}
+
+div.detailbox table th {
+	padding: 0 5px;
+}
+
+.box {
+	float: left;
+	width : 49%;
+	margin-right: 5px;
+	margin-bottom: 30px;
+}
+
+.boxContainer {
+	overflow: hidden;
+}
+
+/* clearfix */
+.boxContainer:before,
+.boxContainer:after {
+	content: "";
+	display: table;
+}
+ 
+.boxContainer:after {
+	clear: both;
+}
+ 
+/* For IE 6/7 (trigger hasLayout) */
+.boxContainer {
+	zoom: 1;
+}
