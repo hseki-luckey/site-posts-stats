@@ -1,10 +1,11 @@
 <?php
 /*
 Plugin Name: Site Posts Stats
-Plugin URI: https://tech.linkbal.co.jp
-Description: サイト内の投稿を集計します
-Version: 1.0.0
+Plugin URI: https://github.com/hseki-luckey/site-posts-stats
+Description: サイト内の投稿を集計するただひとつのプラグイン
+Version: 1.0
 Author: hseki
+Author URI: https://tech.linkbal.co.jp
 License: GPL2
 */
 
